@@ -189,10 +189,10 @@ public class PertambahanDuaAngkaView extends javax.swing.JFrame {
     //Operasi penjumlahan
     private void TambahActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_TambahActionPerformed
          try {
-        int angka1 = Integer.parseInt(AngkaPertama.getText());  
+        int angka1 = Integer.parseInt(AngkaPertama.getText()); //Operasi Penjumlahan
         int angka2 = Integer.parseInt(AngkaKedua.getText());    
         int hasil = angka1 + angka2;                            
-        Hasil.setText(String.valueOf(hasil));
+        Hasil.setText(String.valueOf(hasil)); //Hasil penjumlahan
     } catch (NumberFormatException e) {
         JOptionPane.showMessageDialog(this, "Masukkan angka yang valid!", "Error", JOptionPane.ERROR_MESSAGE);
     }        // Pesan error apabila inputan tidak sesuai

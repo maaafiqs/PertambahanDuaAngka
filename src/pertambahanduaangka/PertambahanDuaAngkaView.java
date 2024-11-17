@@ -207,7 +207,7 @@ public class PertambahanDuaAngkaView extends javax.swing.JFrame {
             public void keyTyped(KeyEvent e) {
             char c = e.getKeyChar();
             if (!Character.isDigit(c)) {
-            e.consume(); // Hanya angka yang diperbolehkan
+            e.consume(); // Hanya angka yang diperbolehkan dalam hasil
         }
     AngkaPertama.addFocusListener(new FocusAdapter() {
     @Override

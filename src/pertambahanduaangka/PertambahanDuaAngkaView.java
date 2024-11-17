@@ -227,7 +227,7 @@ public class PertambahanDuaAngkaView extends javax.swing.JFrame {
         AngkaPertama.setText("");
         AngkaKedua.setText("");
         Hasil.setText("");
-        AngkaPertama.requestFocus();        // Menghapus inputan
+        AngkaPertama.requestFocus();        // Menghapus semua inputan
     }//GEN-LAST:event_HapusActionPerformed
 
     private void HasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_HasilActionPerformed
